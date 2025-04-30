@@ -11,30 +11,7 @@ This project is a secure instant messaging tool between two peers (Alice and Bob
 
 ## 🛠️ Project Structure
 
-secure_p2p_messaging/
-│
-├── main.py                  # 🔌 Entry point: launch client or server with GUI
-│
-├── crypto_utils.py          # 🔐 Encryption/decryption functions (AES + padding + IV)
-├── key_manager.py           # 🔁 Key derivation and periodic re-key logic
-├── network_utils.py         # 🌐 Socket communication (send/recv, server/client)
-├── gui.py                   # 🖼️ GUI interface (Tkinter-based chat window)
-│
-├── config.py                # ⚙️ Shared constants (e.g., port, buffer size, message limit)
-│
-├── tests/                   # 🧪 Unit tests
-│   ├── test_crypto.py
-│   ├── test_network.py
-│   ├── test_key_manager.py
-│
-├── assets/                  # 📸 Optional: icons, logos, screenshots for report
-│
-├── report/                  # 📄 Screenshots + design report (PDF or markdown)
-│   ├── design_diagram.png
-│   ├── screenshots/
-│   └── final_report.md
-│
-└── README.md                # 📘 How to run, install, test
+secure_p2p_messaging/ │ ├── main.py # 🔌 Entry point: launch client or server with GUI │ ├── crypto_utils.py # 🔐 Encryption/decryption functions (AES + padding + IV) ├── key_manager.py # 🔁 Key derivation and periodic re-key logic ├── network_utils.py # 🌐 Socket communication (send/recv, server/client) ├── gui.py # 🖼️ GUI interface (Tkinter-based chat window) │ ├── config.py # ⚙️ Shared constants (e.g., port, buffer size, message limit) │ ├── tests/ # 🧪 Unit tests │ ├── test_crypto.py │ ├── test_network.py │ ├── test_key_manager.py │ ├── assets/ # 📸 Optional: icons, logos, screenshots for report │ ├── report/ # 📄 Screenshots + design report (PDF or markdown) │ ├── design_diagram.png │ ├── screenshots/ │ └── final_report.md │ └── README.md # 📘 How to run, install, test
 
 
 ## 📚 How to Run
